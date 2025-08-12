@@ -1,7 +1,6 @@
 # 🔐 Digital Evidence Management System
 
-A comprehensive digital forensics and evidence management system built with Python Flask, designed for law enforcement agencies to securely manage and track digital evidence throughout the investigation process.
-
+A secure digital evidence management system for law enforcement and forensic teams. This application allows users to upload, encrypt, view, and manage digital evidence files with role-based access and full activity logging.
 ## 📋 Table of Contents
 - [Features](#-features)
 - [System Architecture](#-system-architecture)
@@ -42,11 +41,10 @@ A comprehensive digital forensics and evidence management system built with Pyth
 ## 🏗️ System Architecture
 
 The system is built using:
-- **Backend**: Python Flask framework
-- **Database**: SQLite/PostgreSQL for data storage
-- **Frontend**: HTML, CSS, JavaScript
-- **Security**: Session management, role-based authentication
-- **File Storage**: Secure evidence file handling
+- Python
+- Tkinter
+- SQLite
+- Cryptography (Fernet)
 
 ## 📸 Screenshots
 
@@ -172,8 +170,6 @@ The system is built using:
 digital-evidence-management/
 ├── vault.py              # Main application file
 ├── Images/               # Screenshot documentation
-├── templates/            # HTML templates
-├── static/              # CSS, JS, and static assets
 ├── database/            # Database files
 └── uploads/             # Evidence file storage
 ```
@@ -202,10 +198,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support and questions:
-- 📧 Email: support@evidence-management.com
+- 📧 Email: homnaadda@gmail.com
 - 📋 Issues: Create an issue on GitHub
-- 📖 Documentation: Check the wiki for detailed guides
-
 ## 🙏 Acknowledgments
 
 - Built for law enforcement and forensic professionals
